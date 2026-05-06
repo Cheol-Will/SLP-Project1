@@ -1,0 +1,5 @@
+.env
+__MACOSX
+__pycache__
+Result/*.mp4
+SLP_project01_data
