@@ -3,8 +3,8 @@
 ## Setup
 
 ```bash
-uv init
-uv add av faster-whisper silero-vad pyannote.audio numpy opencv-python omegaconf
+uv sync
+touch .env
 ```
 
 Set your HuggingFace token in a `.env` file (required for `pyannote/embedding`):
@@ -17,6 +17,8 @@ Accept model access at:
 - https://huggingface.co/pyannote/segmentation-3.0
 
 ## Run
+
+Place SLP_project01_data in the project root directory.
 
 ```bash
 # Single clip
