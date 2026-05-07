@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATA_DIR="SLP_project01_data"
-OUTPUT_DIR="Result"
+OUTPUT_DIR="result"
 DEVICE="cuda"
 COMPUTE_TYPE="float16"
 

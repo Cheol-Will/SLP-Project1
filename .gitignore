@@ -1,5 +1,6 @@
 .env
 __MACOSX
 __pycache__
-Result/*.mp4
+result/*.mp4
 SLP_project01_data
+*.tar.gz
